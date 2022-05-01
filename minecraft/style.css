@@ -1,0 +1,104 @@
+.block {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0;
+    border:none;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.block:hover{
+    outline: 1px solid white;
+}
+#game{
+
+    flex-wrap: wrap;
+    display: inline-flex;
+
+}
+.game_class{
+    width: 750px;
+    height: 750px;
+}
+.sky{
+    background-color: lightblue;
+
+}
+.leaf{
+    background-color: green;
+    background-image: url(images/leaf.png);
+}
+
+.trunk{
+    background-color: brown;
+    background-image: url(images/trunk.jpg);
+
+}
+
+.dirt{
+    background-color: lightsalmon;
+    background-image: url(images/dirt.jpg);
+
+}
+
+.cloud{
+    background-color: white;
+}
+.rock{
+    background-color: grey;
+    background-image: url(images/rock.png);
+
+
+}
+.up-dirt{
+    background-color: coral;
+    background-image: url(images/up-dirt.jpg);
+
+}
+
+side{
+    width: 150px;
+    height: 700px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+side{
+    position: absolute;
+    right: 0px;
+}
+side button{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+.selected{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+.hide{
+    display: none;
+}
+#pocket{
+    background-color: transparent;
+    width: 75px;
+    height: 75px;
+    border: 2px sold white;
+}
+#pocket div{
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.body_init{
+    background-image: url('images/dirt.jpg');
+}
+#start{
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
